@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/transfer-bots",
+      "handler": "transfer-bot.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transfer-bots/count",
+      "handler": "transfer-bot.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transfer-bots/:id",
+      "handler": "transfer-bot.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/transfer-bots",
+      "handler": "transfer-bot.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/transfer-bots/:id",
+      "handler": "transfer-bot.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/transfer-bots/:id",
+      "handler": "transfer-bot.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

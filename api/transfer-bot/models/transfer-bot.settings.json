@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transfer_bots",
+  "info": {
+    "name": "transferBot",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "addressFrom": {
+      "type": "string",
+      "required": true
+    },
+    "addressTo": {
+      "type": "string",
+      "required": true
+    },
+    "infura": {
+      "type": "json",
+      "required": true
+    },
+    "status": {
+      "type": "string"
+    },
+    "createdBy": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "updatedBy": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "logs": {
+      "type": "richtext"
+    },
+    "addressToken": {
+      "type": "string",
+      "required": true
+    },
+    "network": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

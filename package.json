@@ -1,0 +1,44 @@
+{
+  "name": "tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "erc": "KEY=da50cbb59877fc7cb11eb88aec5cde6b59c938b2f55469ae6a18e81dc68c78bc  FROM=0x10FE00249a0ca7b827c9D4072686434165263bF9 TO=0x665227A45F131B54fF0F46063F28019E278a4541 TOKEN=0x91474ed5bFC1082f364C2Cd679a1a6023C9a27ab node erc"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ethersproject/contracts": "^5.0.11",
+    "@ethersproject/providers": "^5.0.23",
+    "@ethersproject/solidity": "^5.0.9",
+    "@uniswap/sdk": "^3.0.3",
+    "jsbi": "^3.1.4",
+    "moment": "^2.29.1",
+    "pm2": "^4.5.5",
+    "strapi": "3.5.2",
+    "strapi-admin": "3.5.2",
+    "strapi-connector-mongoose": "3.5.2",
+    "strapi-plugin-content-manager": "3.5.2",
+    "strapi-plugin-content-type-builder": "3.5.2",
+    "strapi-plugin-email": "3.5.2",
+    "strapi-plugin-upload": "3.5.2",
+    "strapi-plugin-users-permissions": "3.5.2",
+    "strapi-utils": "3.5.2",
+    "web3": "^1.2.9"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "63326646-9b3e-4efd-86ca-4d4e7271c7e5"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
